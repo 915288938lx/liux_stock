@@ -1,4 +1,4 @@
-from datas.stock_spider import code,start,end
+from data_handle.stock_spider import code,start,end
 import sqlite3
 import numpy as np
 from sklearn.preprocessing import StandardScaler
@@ -53,15 +53,3 @@ def get_batch_sequence(data,min_start_index,max_random_index):
     batch_source_sequence = np.array(batch_source_sequence)
     batch_target_sequence = np.array(batch_target_sequence)
     return batch_source_sequence,batch_target_sequence
-
-
-
-
-
-
-
-
-
-
-
-print()

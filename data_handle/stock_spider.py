@@ -1,6 +1,5 @@
 import tushare as ts
 import sqlite3
-from tqdm import tqdm
 import logging
 code="000002"
 start = "2008-01-01"
